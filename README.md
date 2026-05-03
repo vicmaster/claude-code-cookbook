@@ -66,7 +66,7 @@ Got a recipe that earned its keep? See [CONTRIBUTING.md](CONTRIBUTING.md). The b
 
 ## Who built this
 
-Built by [Victor Velazquez](https://github.com/vicmastter) — COO at [MagmaLabs](https://www.magmalabs.io), working on AI agent platforms. Follow me on [X](https://x.com/zazvick) and say hi! :wave:
+Built by [Victor Velazquez](https://github.com/vicmaster) — COO at [MagmaLabs](https://www.magmalabs.io), working on AI agent platforms. Follow me on [X](https://x.com/zazvick) and say hi! :wave:
 
 ## License
 
