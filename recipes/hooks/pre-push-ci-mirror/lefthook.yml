@@ -1,0 +1,21 @@
+# Lefthook config — pre-push hooks that mirror CI's lint + test jobs.
+#
+# Install once per dev machine:
+#   bundle exec lefthook install
+#
+# Bypass in an emergency:
+#   git push --no-verify
+#
+# See https://lefthook.dev/configuration/ for syntax.
+
+pre-push:
+  parallel: true
+  commands:
+    rubocop:
+      # Full-repo rubocop — cache makes it fast on unchanged trees.
+      run: bin/rubocop --fail-level refactor
+    rspec:
+      # Full spec suite. The value here is catching cross-file regressions,
+      # not just changed specs — so don't scope it down unless your suite is
+      # too slow to run on every push.
+      run: bin/rspec --fail-fast
