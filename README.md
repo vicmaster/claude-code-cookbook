@@ -53,7 +53,7 @@ Most Claude Code config lists are link dumps. This one is different:
 Install a recipe in 30 seconds:
 
 ```bash
-git clone https://github.com/vicmastter/claude-code-cookbook.git
+git clone https://github.com/vicmaster/claude-code-cookbook.git
 cd claude-code-cookbook/recipes/hooks/block-main-branch-commits
 # follow the README in that folder
 ```
